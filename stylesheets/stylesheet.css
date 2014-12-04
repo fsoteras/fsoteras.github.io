@@ -33,7 +33,7 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
-}
+}f
 
 ol, ul {
   list-style: none;
@@ -285,16 +285,18 @@ Full-Width Styles
 }
 
 #header_wrap {
-  background: #212121;
-  background: -moz-linear-gradient(top, #373737, #212121);
-  background: -webkit-linear-gradient(top, #373737, #212121);
-  background: -ms-linear-gradient(top, #373737, #212121);
-  background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);
+   background-repeat: no-repeat;
+   background-image: url('../images/Moonwatcher_avatar3.jpg');
+   image-resolution:snap;
+   border-image-repeat:round;
+   width:100%;
+  
+
 }
 
 #header_wrap .inner {
   padding: 50px 10px 30px 10px;
+
 }
 
 #project_title {
@@ -362,13 +364,17 @@ Full-Width Styles
   padding-top: 40px;
 }
 
-.left-column {
+.menucontainer {
   position:fixed; /* <-- fixes the left panel to prevent from scrolling */
   top:0;
   left:0;
   width:135px;
   height:100%;
-  background:#090909;
+  background:#f2f2f2;
+  font-size: 1px;
+  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
 }
 
 
